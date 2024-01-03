@@ -1,0 +1,8 @@
+# /server/netlify.toml
+
+[build]
+  command = "npm start"  # Assuming this starts your server
+  publish = "dist"  # Adjust to match your server's output directory
+
+[build.environment]
+  NODE_VERSION = "14"
