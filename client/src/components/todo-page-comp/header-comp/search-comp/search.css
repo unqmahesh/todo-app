@@ -1,0 +1,36 @@
+.search{
+    height : 30px;
+    display: flex;
+    width: 40%;
+    min-width: 5.5rem;
+    border: .5px solid gray;
+    border-radius: 13px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+}
+
+.search input{
+    height: 100%;
+    width: calc(100% - 30px);
+    border-radius: 12px;
+    border: none;
+    outline:  none;
+    margin-left: 10px;
+    color: var(--primary-font-color)
+}
+
+.search button{
+    height: 90%;
+    width: 25px;
+    border-radius: 24px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.search button img{
+    height: 60%;    
+}

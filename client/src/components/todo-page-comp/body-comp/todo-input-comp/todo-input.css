@@ -1,0 +1,68 @@
+.todo-input{
+    width : 70%;
+    height : 30px;
+    border : none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 4px;
+    max-width: 400px;
+    margin-bottom: 50px;
+}
+
+.todo-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.todo-content input{
+    height : 100%;
+    border: none;
+    border-bottom: 0.5px solid grey;
+    padding-bottom: 2px;
+    width: calc(100% - 30px);
+    outline: none;
+    font-size: 1rem;
+}
+
+.todo-input button{
+    height : 25px;
+    width : 25px;
+    border-radius: 24px;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 1.5rem;
+}
+
+.optional-options{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.optional-options input{
+    width: 40px;
+    border: none;
+    outline : none;
+    border-bottom: 0.5px solid gray;
+}
+.optional-options input[type="date"]{
+    width : 100px;
+}
+
+.priority{
+    outline: none;
+    border: none;
+    border-bottom: 0.5px solid gray;
+}
+
+.priority option[value='']{
+    display: none;
+}

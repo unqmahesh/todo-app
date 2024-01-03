@@ -1,0 +1,35 @@
+.signin{
+    padding: 20px 5px;
+    border: 0.4px solid rgb(63, 62, 62);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signin form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center ;
+    width: 80%;
+}
+
+.signin form input{
+    font-size: .8rem;
+    padding: 2px 4px;
+    border: none;
+    outline: none;
+    margin-bottom: 10px;
+    border-bottom: .5px solid black;
+}
+
+.signin form input[type="submit"]{
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    border: none;
+    color: white;
+    padding: 5px;    
+}
+
