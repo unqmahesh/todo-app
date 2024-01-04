@@ -1,6 +1,6 @@
 import {useContext, useEffect, useState} from 'react'
 import {Routes, Route, Navigate} from 'react-router-dom'
-import './app.css'
+import './App.css'
 
 import AuthPage from './pages/auth-page/auth-page.jsx'
 import TodoPage from './pages/todo-page/todo-page.jsx'
