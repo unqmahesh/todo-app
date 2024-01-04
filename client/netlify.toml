@@ -1,8 +1,0 @@
-# /client/netlify.toml
-
-[build]
-  command = "npm run build"
-  publish = "dist"  # Adjust to match your client's build output directory
-
-[build.environment]
-  NODE_VERSION = "14"
