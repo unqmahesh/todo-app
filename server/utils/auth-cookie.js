@@ -1,5 +1,5 @@
 
-const cookieDomain = process.env.COOKIE_DOMAIN || 'localhost'
+const cookieDomain = process.env.COOKIE_DOMAIN || "localhost"
 
 const createAuthCookie = (res, authToken) => {
     try{
