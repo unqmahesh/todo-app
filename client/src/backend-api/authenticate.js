@@ -14,6 +14,7 @@ const isAuthenticated = async() => {
 }
 
 const signIn = async (data) => {
+    console.log(import.meta.env.VITE_USER_BASE_URL)
     try{
         const response = await axios.post(baseurl+'user/signin' , data , {withCredentials : true})
         return response.data
