@@ -11,7 +11,7 @@ const clientOrigin = process.env.CLIENT_ORIGIN || 'http://localhost:5173'
 const cookieSecret = process.env.COOKIE_SECRET || 'thislineisasecretforcookie'
 
 //giving access to client origin with creadentials
-app.use(cors({origin : clientOrigin, credentials : true}))
+app.use(cors({origin : clientOrigin, credentials : true,  methods: ['GET', 'POST', 'PATCH', 'DELETE'],}))
 
 //parsing cookies and signed using cokkieSecret
 app.use(cookieParser(cookieSecret))
